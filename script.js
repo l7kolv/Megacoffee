@@ -1,3 +1,5 @@
+
+//메뉴 이벤트
 window.onload = function () {
   $(".menu li")
     .mouseover(function () {
