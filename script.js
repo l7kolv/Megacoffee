@@ -6,11 +6,13 @@ window.onload = function () {
       $(".submenu").stop().slideDown();
       $(".subback").stop().slideDown();
     })
-    .mouseleave(function () {
-      $(".subback").stop().slideUp();
-      $(".submenu").stop().slideUp();
-    });
+   
 };
+
+$(".subback").click(function(){
+  $(".submenu").stop().slideUp();
+  $(".subback").stop().slideUp();
+})
 
  
 
