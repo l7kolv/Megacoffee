@@ -16,7 +16,7 @@ window.onload = function () {
     .mouseover(function () {
       $(this).find(".submenu li").stop().slideDown();
       $(".subback.active ul li").stop().slideDown();
-    })
+    }) 
     .mouseleave(function () {
       $(".subback.active ul li").stop().slideUp();
       $(".submenu.active ul li").stop().slideUp();
